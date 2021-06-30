@@ -3,7 +3,12 @@ package com.company;
 public class ToyotaCamry extends Car {
 
     @Override
-    public void go() {
+    public void tuning() {
+
+    }
+
+    @Override
+    public void drive() {
         System.out.println("Камри едет");
     }
 
